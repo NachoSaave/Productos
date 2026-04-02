@@ -22,9 +22,9 @@ import com.Producto.Productos.Service.ServiceProducto;
 public class ControllerProducto {
 @Autowired
 private ServiceProducto serviciopro;
-private RepositoryProducto repo;
+private RepositoryProducto RepositoryProducto;
 public ControllerProducto(){
-    repo=new RepositoryProducto();
+    RepositoryProducto=new RepositoryProducto();
 }
 
 @GetMapping

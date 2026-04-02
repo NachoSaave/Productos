@@ -8,12 +8,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Producto {
-private int id;
-private String nombre;
-private String sku;
-private int precio;
-private int stock;
-private String color;
-private String tipoProducto;
-private Boolean activo;
+    private int id;
+    private String nombre;
+    private String sku;
+    private int precio;
+    private int stock;
+    private String color;
+    private String tipoProducto;
+    private Boolean activo;
 }
